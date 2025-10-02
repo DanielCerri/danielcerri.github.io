@@ -17,8 +17,9 @@ function verify(){
       // Compara como string (para evitar diferenças de tipo)
       if (entrada.toString().trim() === senhaCorrente.toString()) {
         // senha correta -> redireciona
-        window.location.href = 'https://forms.gle/P5QdruSVa8T7Vu998';
+        window.location.href = 'https://forms.gle/FcP2XXobGL8BqNWX6';
       } else {
         alert('Senha incorreta!');
       }
+
 }
