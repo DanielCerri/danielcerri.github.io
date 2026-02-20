@@ -17,11 +17,12 @@ function verify(){
       // Compara como string (para evitar diferenças de tipo)
       if (entrada.toString().trim() === senhaCorrente.toString()) {
         // senha correta -> redireciona
-        window.location.href = 'https://forms.gle/YhmJcDoj7YtiDkaJ7';
+        window.location.href = 'https://forms.gle/eLLRhaHrAdXmtyyV6';
       } else {
         alert('Senha incorreta!');
       }
 
 }
+
 
 
